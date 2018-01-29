@@ -1,0 +1,80 @@
+body{
+  background: silver;
+  font-family: Raleway;
+  background-image:url("https://raw.githubusercontent.com/Sacheec47/ALORA-Weather-App/master/Twitch.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: No-repeat;
+  margin-top: 5px;
+  height: 700px;
+  background-attachment: fixed;
+}
+#mainDiv{
+  margin-top: 30px;
+  background: rgb(2,124,155);
+}
+h3{
+  font-size: 25px;
+  margin-top: 0;
+  font-weight: bold;
+  padding-left: 7px;
+}
+#btnAll{
+  margin-left: 7px;
+}
+#channelSection{
+  position:relative;
+  background: rgb(102,171,198);
+  height: 100%;
+  margin-top: 10px;
+  padding-bottom: 5px; 
+}
+#block{
+ position: relative; 
+ top: 5px;
+ margin: 5px;
+ background: #99fa99;
+ text-align: left; 
+}
+#block:hover{
+ background: rgb(92,184,92);
+ text-align: left; 
+ transition: .6s ease-in-out;  
+}
+#block-offline{
+ position: relative; 
+ top: 5px;
+ margin: 5px;
+ background: #f97e7e;
+ text-align: left; 
+ }
+#block-offline:hover{
+ background: rgb(217,83,79);
+ text-align: left; 
+ transition: .6s ease-in-out; 
+ }
+.imgX{
+  width: 50px;
+  height: 45px;
+  margin-right: 15px;
+  margin-top: -10px;
+  border-radius: 5px;
+  background-attachment: fixed; 
+}
+#spanX{
+  margin-left: 15px;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+  font: inherit;
+}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+a:focus{
+  color: inherit;
+  text-decoration: none;
+}
